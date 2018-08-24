@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.netlan.first.proyectonetlan.module.TwoModuleFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Armado de Topología"
+            android:textStyle="italic"
+            android:inputType="textMultiLine"
+            android:layout_gravity= "center"
+            android:textColor="#008080"
+            android:longClickable="true"
+            android:typeface="serif"
+            android:textSize="35sp"
+            android:padding="10dp" />
+
+        <VideoView
+            android:layout_width="280dp"
+            android:layout_height="100dp"
+            android:id="@+id/vv_video"
+            android:layout_gravity="center_horizontal"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Play"
+            android:id="@+id/bt_play"
+            android:layout_gravity="center_horizontal"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Practicas"
+            android:textStyle="italic"
+            android:inputType="textMultiLine"
+            android:scrollbars = "vertical"
+            android:textColor="#33ffac"
+            android:longClickable="true"
+            android:typeface="serif"
+            android:textSize="25sp"
+            android:padding="10dp" />
+
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Puzzle"
+            android:id="@+id/bt_bp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginBottom="5dp"
+            style="?android:attr/borderlessButtonStyle"
+            android:background="@drawable/estiloboton"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cableado Para Topologia"
+            android:textStyle="italic"
+            android:inputType="textMultiLine"
+            android:scrollbars = "vertical"
+            android:textColor="#33ffac"
+            android:longClickable="true"
+            android:typeface="serif"
+            android:textSize="25sp"
+            android:padding="10dp" />
+
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Cables"
+            android:id="@+id/bt_tiposca"
+            android:layout_marginLeft="10dp"
+            android:layout_marginBottom="5dp"
+            style="?android:attr/borderlessButtonStyle"
+            android:background="@drawable/estiloboton"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Topologías"
+            android:textStyle="italic"
+            android:inputType="textMultiLine"
+            android:scrollbars = "vertical"
+            android:textColor="#848c89"
+            android:longClickable="true"
+            android:typeface="serif"
+            android:textSize="25sp"
+            android:layout_gravity="center"
+            android:padding="10dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Topología física: Se refiere al diseño actual del medio de transmisión de la red."
+            android:textStyle="italic"
+            android:inputType="textMultiLine"
+            android:scrollbars = "vertical"
+            android:textColor="#848c89"
+            android:longClickable="true"
+            android:typeface="serif"
+            android:textSize="20sp"
+            android:padding="10dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Topología lógica: Se refiere a la trayectoria lógica que una señal a su paso por los nodos de la red."
+            android:textStyle="italic"
+            android:inputType="textMultiLine"
+            android:scrollbars = "vertical"
+            android:textColor="#848c89"
+            android:longClickable="true"
+            android:typeface="serif"
+            android:textSize="20sp"
+            android:padding="10dp" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Topologías"
+            android:textStyle="italic"
+            android:inputType="textMultiLine"
+            android:scrollbars = "vertical"
+            android:textColor="#848c89"
+            android:longClickable="true"
+            android:typeface="serif"
+            android:textSize="20sp"
+            android:padding="10dp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:src="@drawable/bus"
+            android:layout_gravity="center"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/lightGrayLine"
+            android:layout_margin="10dp"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:src="@drawable/malla"
+            android:layout_gravity="center"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/lightGrayLine"
+            android:layout_margin="10dp"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:src="@drawable/estrella"
+            android:layout_gravity="center"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/lightGrayLine"
+            android:layout_margin="10dp"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:src="@drawable/anillo"
+            android:layout_gravity="center"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/lightGrayLine"
+            android:layout_margin="10dp"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:src="@drawable/hidrida"
+            android:layout_gravity="center"/>
+
+    </LinearLayout>
+
+</FrameLayout>

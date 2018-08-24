@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#7bc9d7d6"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context="com.netlan.first.proyectonetlan.GlosaryActivity">
+
+    <TextView
+        android:id="@+id/tv_glosary"
+        android:layout_width="214dp"
+        android:layout_height="67dp"
+        android:fontFamily="italic"
+        android:textStyle="italic"
+        android:gravity="center"
+        android:text="GLOSARIO DE TERMINOS"
+        android:textColor="#0b9383"
+        android:textSize="30sp" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/bt_isp"
+            android:layout_width="146dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="28dp"
+            android:layout_marginTop="27dp"
+            android:background="#33ffe6"
+            android:text="ISP"
+            android:textColor="@color/colorAccent"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="28dp" />
+
+        <Button
+            android:id="@+id/bt_ip"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="28dp"
+            android:layout_marginStart="28dp"
+            android:layout_marginTop="27dp"
+            android:background="#33ffe6"
+            android:text=" Dirección IP"
+            android:textColor="@color/colorAccent"
+            android:layout_alignParentRight="true" />
+
+        <Button
+            android:id="@+id/bt_enlace"
+            android:layout_width="146dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginBottom="121dp"
+            android:layout_marginEnd="28dp"
+            android:background="#33ffe6"
+            android:text="Puerta de Enlace"
+            android:textColor="@color/colorAccent"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="28dp" />
+
+        <Button
+            android:id="@+id/bt_dhcp"
+            android:layout_width="146dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginBottom="121dp"
+            android:layout_marginStart="28dp"
+            android:background="#33ffe6"
+            android:text="DHCP"
+            android:textColor="@color/colorAccent"
+            android:layout_marginLeft="28dp"
+            android:layout_alignParentLeft="true" />
+
+        <Button
+            android:id="@+id/bt_host"
+            android:layout_width="146dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="28dp"
+            android:layout_marginTop="155dp"
+            android:background="#33ffe6"
+            android:text="Host"
+            android:textColor="@color/colorAccent"
+            android:layout_marginLeft="28dp" />
+
+        <Button
+            android:id="@+id/bt_ethernet"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginEnd="28dp"
+            android:layout_marginTop="155dp"
+            android:background="#33ffe6"
+            android:text="Ethernet"
+            android:textColor="@color/colorAccent"
+            android:layout_marginRight="28dp"
+            android:layout_alignParentRight="true" />
+    </RelativeLayout>
+
+</LinearLayout>

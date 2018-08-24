@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.netlan.first.proyectonetlan.module.OneModuleFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Subneteo"
+            android:textStyle="italic"
+            android:layout_gravity= "center"
+            android:textColor="#008080"
+            android:textSize="35sp"
+            android:longClickable="true"
+            android:typeface="serif"
+            android:padding="10dp" />
+
+        <VideoView
+            android:layout_marginTop="5dp"
+            android:layout_width="300dp"
+            android:layout_height="200dp"
+            android:id="@+id/vv_video"
+            android:layout_gravity="center_horizontal" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Play"
+            android:id="@+id/bt_play"
+            android:layout_gravity="center_horizontal"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="italic"
+            android:inputType="textMultiLine"
+            android:scrollbars = "vertical"
+            android:textColor="#33ffac"
+            android:longClickable="true"
+            android:typeface="serif"
+            android:text="Practicas"
+            android:textSize="25sp"
+            android:padding="10dp" />
+
+        <Button
+            android:id="@+id/bt_puzzLe"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Puzzle"
+            android:layout_marginLeft="10dp"
+            android:layout_marginBottom="5dp"
+            style="?android:attr/borderlessButtonStyle"
+            android:background="@drawable/estiloboton"/>
+        <Button
+            android:id="@+id/bt_quiz"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Quiz"
+            android:layout_marginLeft="10dp"
+            android:layout_marginBottom="5dp"
+            style="?android:attr/borderlessButtonStyle"
+            android:background="@drawable/estiloboton"/>
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="italic"
+            android:inputType="textMultiLine"
+            android:scrollbars = "vertical"
+            android:textColor="#33ffac"
+            android:longClickable="true"
+            android:typeface="serif"
+            android:text="Calculadora Para Subnetear"
+            android:textSize="25sp"
+            android:padding="10dp" />
+
+        <Button
+            android:id="@+id/bt_calculetor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Calculator"
+            android:layout_marginLeft="10dp"
+            android:layout_marginBottom="5dp"
+            style="?android:attr/borderlessButtonStyle"
+            android:background="@drawable/estiloboton"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="italic"
+            android:inputType="textMultiLine"
+            android:scrollbars = "vertical"
+            android:textColor="#575958"
+            android:longClickable="true"
+            android:typeface="serif"
+            android:text="¿Como subnetear?"
+            android:textSize="25sp"
+            android:layout_gravity="center"
+            android:padding="10dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="italic"
+            android:inputType="textMultiLine"
+            android:scrollbars = "vertical"
+            android:textColor="#575958"
+            android:longClickable="true"
+            android:typeface="serif"
+            android:text="El primer paso que debemos recordar son las clases de redes que existen para nuestro uso:"
+            android:textSize="20sp"
+            android:layout_gravity="center"
+            android:padding="10dp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:src="@drawable/subnet"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="italic"
+            android:inputType="textMultiLine"
+            android:scrollbars = "vertical"
+            android:textColor="#575958"
+            android:longClickable="true"
+            android:typeface="serif"
+            android:text="Y estas clases tienen por defauls una mascara para cada una de ellas:"
+            android:textSize="20sp"
+            android:layout_gravity="center"
+            android:padding="10dp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:src="@drawable/cl"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="italic"
+            android:inputType="textMultiLine"
+            android:scrollbars = "vertical"
+            android:textColor="#575958"
+            android:longClickable="true"
+            android:typeface="serif"
+            android:text="Con fines practicos utilizaremos una red de Clase A que sera la 10.0.0.0 y haremos 7 subredes.
+
+Recordemos la mascara de subred de este tipo de clase; 255.0.0.0. Hecho esto empezemos con el
+subneteo propiamente dicho.
+La ecuacion que define la cantidad de bits que tenemos que tomar prestados a la parte de la mascara de
+subred para crear las subredes necesarias es la siguiente:
+2N - 2 = x donde “N” es el numero de bits que pediremos prestados y “x” es el numero de subredes. "
+            android:textSize="20sp"
+            android:layout_gravity="center"
+            android:padding="10dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="italic"
+            android:inputType="textMultiLine"
+            android:scrollbars = "vertical"
+            android:textColor="#575958"
+            android:longClickable="true"
+            android:typeface="serif"
+            android:text="En este caso vamos a sustituir los valores que tenemos. 2N - 2 = 7 , ya tenemos el valor de las subredes
+que necesitamos ahora solo tenemos que buscar una potencia de dos que al restarle dos nos de 7 o mas,
+si ocupamos el valor de “3” tenemos 8 pero al restarle “2” solo nos quedan 6, entonces no nos sirve.  "
+            android:textSize="20sp"
+            android:layout_gravity="center"
+            android:padding="10dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="italic"
+            android:inputType="textMultiLine"
+            android:scrollbars = "vertical"
+            android:textColor="#575958"
+            android:longClickable="true"
+            android:typeface="serif"
+            android:text="Por lo cual el numero “4” es el indicado ya que al elevar y restar 2 nos quedan 14 redes utilizables ,
+aquí se pueden preguntar que solo queremos 7 y las demas que se le van a hacer , bueno pues las 7
+restantes se pueden guardar para un posterior uso. "
+            android:textSize="20sp"
+            android:layout_gravity="center"
+            android:padding="10dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="italic"
+            android:inputType="textMultiLine"
+            android:scrollbars = "vertical"
+            android:textColor="#575958"
+            android:longClickable="true"
+            android:typeface="serif"
+            android:text="Volvamos a sustituir el nuevo numero en nuestra formula inicial 24 – 2 = 14. Como digimos
+anteriormente “N” es el numero de bits que tomariamos prestados a la mascara de subred para poder
+crear las subredes, por lo que tomaremos 4 bits de que octeto se preguntaran, estan de acuerdo que los
+bits del primer octeto ya estan ocupados y que por eso es el numero 255 en decimal. "
+            android:textSize="20sp"
+            android:layout_gravity="center"
+            android:padding="10dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="italic"
+            android:inputType="textMultiLine"
+            android:scrollbars = "vertical"
+            android:textColor="#575958"
+            android:longClickable="true"
+            android:typeface="serif"
+            android:text="Dejenme explicarlo con mas detalle, 255.0.0.0 , es el numero decimal que representa la mascara de
+subred, pero el numero real es un numero en binario que se veria de la siguiente forma:
+11111111.00000000.00000000.00000000  "
+            android:textSize="20sp"
+            android:layout_gravity="center"
+            android:padding="10dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="italic"
+            android:inputType="textMultiLine"
+            android:scrollbars = "vertical"
+            android:textColor="#575958"
+            android:longClickable="true"
+            android:typeface="serif"
+            android:text="Recordemos lo que aprendimos en electronica, donde 1 representa encendido y 0 es apagado, aquí lo
+aplicamos a que 1 esta lleno y el 0 es vacio.
+Por eso digo que el primer octeto ya esta ocupado , por eso los 4 bits los tomaremos del octeto
+siguiente con lo cual podriamos decir que la nueva mascara de subred en modo binario quedaria de
+esta forma:
+11111111.11110000.00000000.00000000  "
+            android:textSize="20sp"
+            android:layout_gravity="center"
+            android:padding="10dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="italic"
+            android:inputType="textMultiLine"
+            android:scrollbars = "vertical"
+            android:textColor="#575958"
+            android:longClickable="true"
+            android:typeface="serif"
+            android:text="Ahora convirtamoslo a decimal para saber que numero es y asi lo pongamos en la configuracion.
+255.240.0.0 En decimal esa es la nueva mascara de subred que ocuparan todas las subredes que
+tengamos. Ahora solo nos falta encontrar de que tamaño seran las subredes que haremos.
+Aquí veamos otro concepto, Cuantas numeros existen en el rango de 0 a 255 ? Si contamos tambien a
+el numero 0 como un valor real tendriamos 256 numeros, de acuerdo."
+            android:textSize="20sp"
+            android:layout_gravity="center"
+            android:padding="10dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="italic"
+            android:inputType="textMultiLine"
+            android:scrollbars = "vertical"
+            android:textColor="#575958"
+            android:longClickable="true"
+            android:typeface="serif"
+            android:text="Ahora si a esos 256 valores les restamos el numero que encontramos en la mascara de subred ya
+tendremos los numeros que sobran que seran los saltos de cada subred.
+256-240 = 16 Los saltos seran de 16 en 16 pero en que octeto haremos los saltos? Bueno recordemos
+cual es la red que ibamos a subnetear y la mascara de subred que hicimos:
+la red es la 10.0.0.0 y la mascara nueva de subred es la 255.240.0.0 , estamos de acuerdo que el octeto que modificamos de la mascara de subred es el segundo asi que el octeto que tenemos que modificar en
+la red tambien tiene que ser el segundo, asi que si hubieramos modificado el tercero se tendria que
+hacer el proceso en el tercero."
+            android:textSize="20sp"
+            android:layout_gravity="center"
+            android:padding="10dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="italic"
+            android:inputType="textMultiLine"
+            android:scrollbars = "vertical"
+            android:textColor="#575958"
+            android:longClickable="true"
+            android:typeface="serif"
+            android:text="Numero de Subred Subred Broadcast Rango de IP's Utilizables "
+            android:textSize="20sp"
+            android:layout_gravity="center"
+            android:padding="10dp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:src="@drawable/red"
+            android:layout_gravity="center"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>

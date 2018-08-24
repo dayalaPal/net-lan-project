@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.netlan.first.proyectonetlan">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.netlan.first.proyectonetlan.LoginActivity" />
+        <activity
+            android:name="com.netlan.first.proyectonetlan.SplashActivity"
+            android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.netlan.first.proyectonetlan.RegisterActivity" />
+        <activity android:name="com.netlan.first.proyectonetlan.IntroductionActivity" />
+        <activity android:name="com.netlan.first.proyectonetlan.module.ModulesActivity" />
+        <activity android:name="com.netlan.first.proyectonetlan.quiz.QuizPlayActivity" />
+        <activity android:name="com.netlan.first.proyectonetlan.quiz.ResultQuizActivity" />
+        <activity android:name="com.netlan.first.proyectonetlan.quiz.StartQuizActivity" />
+        <activity android:name="com.netlan.first.proyectonetlan.chat.ChatActivity" />
+        <activity android:name="com.netlan.first.proyectonetlan.chat.CardViewMessengerActivity" />
+
+        <service android:name="com.netlan.first.proyectonetlan.FireBase">
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+            </intent-filter>
+        </service>
+        <service android:name="com.netlan.first.proyectonetlan.MyService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+        <activity android:name="com.netlan.first.proyectonetlan.HomeActivity" />
+        <activity android:name="com.netlan.first.proyectonetlan.games.PuzzleOne" />
+        <activity android:name="com.netlan.first.proyectonetlan.games.PuzzleTwo" />
+        <activity android:name="com.netlan.first.proyectonetlan.games.PuzzleFour" />
+        <activity android:name="com.netlan.first.proyectonetlan.games.PuzzleThree" />
+        <activity android:name="com.netlan.first.proyectonetlan.quiz.StartQuizThreeActivity" />
+        <activity android:name="com.netlan.first.proyectonetlan.quiz.StartQuizOneActivity" />
+        <activity android:name="com.netlan.first.proyectonetlan.quiz.QuizPlayThreeActivity" />
+        <activity android:name="com.netlan.first.proyectonetlan.quiz.QuizPlayOneActivity" />
+        <activity android:name="com.netlan.first.proyectonetlan.quiz.ResultQuizOneActivity" />
+        <activity android:name="com.netlan.first.proyectonetlan.quiz.ResultQuizThreeActivity" />
+        <activity android:name="com.netlan.first.proyectonetlan.DowActivity" />
+        <activity android:name="com.netlan.first.proyectonetlan.galery.GalleryDevices" />
+        <activity android:name="com.netlan.first.proyectonetlan.galery.PacketDevicesActivity" />
+        <activity android:name="com.netlan.first.proyectonetlan.pdf.PdfVlanActivity" />
+        <activity android:name="com.netlan.first.proyectonetlan.pdf.PdfSubnetActivity" />
+        <activity android:name="com.netlan.first.proyectonetlan.pdf.PdfStpActivity" />
+        <activity android:name="com.netlan.first.proyectonetlan.pdf.PdfGuideActivity" />
+        <activity android:name="com.netlan.first.proyectonetlan.CalculatorActivity" />
+        <activity android:name="com.netlan.first.proyectonetlan.galery.TypesWiresActivity" />
+        <activity android:name="com.netlan.first.proyectonetlan.GlosaryActivity"></activity>
+    </application>
+
+</manifest>

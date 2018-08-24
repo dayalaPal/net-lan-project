@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.netlan.first.proyectonetlan.module.ThreeModuleFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="VLAN"
+            android:textStyle="italic"
+            android:inputType="textMultiLine"
+            android:layout_gravity= "center"
+            android:textColor="#008080"
+            android:longClickable="true"
+            android:typeface="serif"
+            android:textSize="35sp"
+            android:padding="10dp" />
+
+        <VideoView
+            android:layout_width="280dp"
+            android:layout_height="100dp"
+            android:id="@+id/vv_video"
+            android:layout_gravity="center_horizontal"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Play"
+            android:id="@+id/bt_play"
+            android:layout_gravity="center_horizontal"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Practicas"
+            android:textStyle="italic"
+            android:inputType="textMultiLine"
+            android:scrollbars = "vertical"
+            android:textColor="#33ffac"
+            android:longClickable="true"
+            android:typeface="serif"
+            android:textSize="25sp"
+            android:padding="10dp" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Puzzle"
+            android:id="@+id/bt_puzzt"
+            android:layout_marginLeft="10dp"
+            android:layout_marginBottom="5dp"
+            style="?android:attr/borderlessButtonStyle"
+            android:background="@drawable/estiloboton"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Quiz"
+            android:id="@+id/bt_quizt"
+            android:layout_marginLeft="10dp"
+            android:layout_marginBottom="5dp"
+            style="?android:attr/borderlessButtonStyle"
+            android:background="@drawable/estiloboton"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tipos de VLAN"
+            android:textStyle="italic"
+            android:inputType="textMultiLine"
+            android:scrollbars = "vertical"
+            android:textColor="#848c89"
+            android:longClickable="true"
+            android:typeface="serif"
+            android:textSize="25sp"
+            android:layout_gravity="center"
+            android:padding="10dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Puertos"
+            android:textStyle="italic"
+            android:inputType="textMultiLine"
+            android:scrollbars = "vertical"
+            android:textColor="#848c89"
+            android:longClickable="true"
+            android:typeface="serif"
+            android:textSize="25sp"
+            android:padding="10dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="También conocida como Port Switching en los menús de configuración de los routers y switches, se trata de la más extendida y utilizada. Cada puerto se asigna a una VLAN y los usuarios que estén conectados a ese puerto pertenecen a la VLAN asignada. Los usuarios dentro de una misma VLAN poseen de visibilidad los unos sobre los otros, aunque no a las redes virtuales vecinas. El único inconveniente es que no permite dinamismo a la tvHour de ubicar los usuarios y en el caso de que el usuario cambie de emplazamiento físicamente se debería reconfigurar la red virtual."
+            android:textStyle="italic"
+            android:inputType="textMultiLine"
+            android:scrollbars = "vertical"
+            android:textColor="#848c89"
+            android:longClickable="true"
+            android:typeface="serif"
+            android:textSize="20sp"
+            android:padding="10dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mac"
+            android:textStyle="italic"
+            android:inputType="textMultiLine"
+            android:scrollbars = "vertical"
+            android:textColor="#848c89"
+            android:longClickable="true"
+            android:typeface="serif"
+            android:textSize="25sp"
+            android:padding="10dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="El razonamiento es similar a la anterior, salvo que en vez de ser una asignación a nivel de puerto lo es a nivel de dirección MAC del dispositivo. La ventaja es que permite movilidad sin necesidad de que se tengan que aplicar cambios en la configuración del switch o del router. El problema parece bastante claro: añadir todos los usuarios puede resultar tedioso."
+            android:textStyle="italic"
+            android:inputType="textMultiLine"
+            android:scrollbars = "vertical"
+            android:textColor="#848c89"
+            android:longClickable="true"
+            android:typeface="serif"
+            android:textSize="20sp"
+            android:padding="10dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Aplicaciones"
+            android:textStyle="italic"
+            android:inputType="textMultiLine"
+            android:scrollbars = "vertical"
+            android:textColor="#848c89"
+            android:longClickable="true"
+            android:typeface="serif"
+            android:textSize="25sp"
+            android:padding="10dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Se asignarían redes virtuales en función de la aplicación utilizada, y en este caso intervienen varios factores, como por ejemplo la tvHour en la que nos encontramos, la dirección MAC o la subred, permitiendo distinguir entre aplicaciones SSH, FTP, Samba o incluso SMTP."
+            android:textStyle="italic"
+            android:inputType="textMultiLine"
+            android:scrollbars = "vertical"
+            android:textColor="#848c89"
+            android:longClickable="true"
+            android:typeface="serif"
+            android:textSize="20sp"
+            android:padding="10dp" />
+
+    </LinearLayout>
+
+</FrameLayout>

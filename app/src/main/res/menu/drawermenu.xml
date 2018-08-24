@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/m1" android:title="Modulo 1" android:icon="@drawable/ic_new_releases_black_24dp"/>
+    <item android:id="@+id/m2" android:title="Modulo 2" android:icon="@drawable/ic_offline_pin_black_24dp"/>
+    <item android:id="@+id/m3" android:title="Modulo 3" android:icon="@drawable/ic_perm_media_black_24dp"/>
+    <item android:id="@+id/m4" android:title="Modulo 4" android:icon="@drawable/ic_picture_in_picture_alt_black_24dp"/>
+    <item android:id="@+id/pp" android:title="Prácticas Extra" android:icon="@drawable/ic_create_black_24dp"/>
+    <item android:id="@+id/cerrar" android:title="Cerrar Sesión" android:icon="@drawable/ic_mood_bad_black_24dp"/>
+</menu>

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/bt_calculetor"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    android:background="@android:color/holo_green_dark"
+    tools:context="com.netlan.first.proyectonetlan.CalculatorActivity"
+    android:weightSum="1">
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/math_operation"
+        android:textSize="23sp"
+        android:textColor="@android:color/background_light"
+        android:textStyle="bold"
+        android:layout_marginBottom="20dp"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        app:srcCompat="@drawable/logo"
+        android:id="@+id/iv_logo"
+        android:layout_marginBottom="20dp"/>
+
+    <EditText
+        android:id="@+id/et_numone"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:background="@android:color/background_light"
+        android:hint="@string/inset_numone"
+        android:layout_marginBottom="10dp" />
+
+    <EditText
+        android:id="@+id/et_numtwo"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:background="@android:color/background_light"
+        android:hint="@string/insert_numtwo"/>
+
+
+    <RelativeLayout
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/bt_sum"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:text="+"
+            android:textSize="20sp"
+            android:textColor="@android:color/holo_blue_dark"
+            android:onClick="onClick"/>
+
+        <Button
+            android:id="@+id/bt_rest"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:text="-"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/bt_sum"
+            android:layout_toEndOf="@+id/bt_sum"
+            android:textSize="20sp"
+            android:textColor="@android:color/holo_blue_dark"
+            android:onClick="onClick"/>
+
+        <Button
+            android:id="@+id/bt_multi"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:text="*"
+            android:textSize="20sp"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/bt_rest"
+            android:layout_toEndOf="@+id/bt_rest"
+            android:textColor="@android:color/holo_blue_dark"
+            android:onClick="onClick"/>
+
+        <Button
+            android:id="@+id/bt_div"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:text="/"
+            android:textSize="20sp"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/bt_multi"
+            android:layout_toEndOf="@+id/bt_multi"
+            android:textColor="@android:color/holo_blue_dark"
+            android:onClick="onClick"/>
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/tv_result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/result"
+        android:textColor="#ffff"
+        android:textSize="20sp"/>
+
+
+</LinearLayout>

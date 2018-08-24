@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">NetLAN</string>
+    <string name="txtEmail">Email</string>
+    <string name="txtPassR">Password</string>
+    <string name="btnRegis">Registro</string>
+    <string name="buttonCancel">Cancelar</string>
+    <string name="button1">Inicio</string>
+    <string name="button2">Registrar</string>
+    <string name="open">Abrir</string>
+    <string name="close">Cerrar</string>
+    <string name="imbu">ImageButton</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="profile_photo_updated">ha actualizado su photo de perfil</string>
+    <string name="select_photo">Selecciona una photo</string>
+    <string name="send_photo">te ha enviado una photo</string>
+    <string name="photo_send">foto_perfil</string>
+    <string name="result_sum">El Resultado de la suma es:</string>
+    <string name="result_rest">El Resultado de la resta es:</string>
+    <string name="result_multiplication">El Resultado de la multiplicacion es:</string>
+    <string name="result_division">El Resultado de la division es:</string>
+    <string name="num_higher">El numero 2 debe mayor a 0 para la division</string>
+    <string name="used_term">Término usado para referirnos a nuestro proveedor de servicio de Internet. Son esas empresas a quienes le pagamos mensualmente una tarifa por darnos el Internet nuestro de cada día :). Ejemplos: Movistar, ONO, Claro, Vodafone, etc (según tu país).</string>
+    <string name="return_glossary">Regresar al glosario</string>
+    <string name="retu_glossary" />
+    <string name="exit">Salir</string>
+    <string name="exi" />
+    <string name="protocol_address">Un dirección de protocolo de Internet es una dirección numérica que corresponde a tu equipo dentro de una red local o WAN. Todo equipo requiere una dirección IP para poder conectarse a Internet. Se compone de un grupo de cuatro números en el rango de 0 a 255 separados por puntos. Eje: 192.168.100.1 ó 213.24.90.80.</string>
+    <string name="devices_description">Es un dispositivo que enruta el tráfico entre redes. Este término lo encontrarás con mucha frecuencia y suele relacionarse al router, al cual se le conoce también como Puerta de Enlace Predeterminada a la hora de realizar alguna configuración en él.</string>
+    <string name="configuration_description">Traducido como Protocolo de Configuración dinámica de Host, es una función del router que se encarga de asignar una dirección IP de forma automática a los equipos de una red. Por ejemplo, al conectar una tablet, el dispositivo le pregunta el router para obtener una dirección IP, si el router tiene activada la opción DHCP le asignará automáticamente una.</string>
+    <string name="name_description">Un nombre de host es como una etiqueta que identifica a un dispositivo conectado a una red. Por ejemplo, en la red doméstica, el nombre de un ordenador con sistema Windows puede ser WindowsPC o PC-Casa.</string>
+    <string name="ethernet_description">Ethernet es la tecnología de red por cable utilizado con más frecuencia en ordenadores de mesa.</string>
+    <string name="start_youtube">Error al iniciar YouTubePlayer (%1$s)</string>
+    <string name="enter_email">Ingresa email</string>
+    <string name="enter_pass">Ingresa tu contraseña</string>
+    <string name="enter">Iniciando...</string>
+    <string name="welcome">Bienvenido</string>
+    <string name="email_description">No puedes usar este email, vuelve a intentar</string>
+    <string name="error_register">No se pudo realizar el registro</string>
+    <string name="message_firebase">Mensajes Firebase:</string>
+    <string name="message_firebas">Mensaje Firebase</string>
+    <string name="enter_name">Ingresa tu nombre</string>
+    <string name="user_register">Usuario registrado</string>
+    <string name="math_operation">OPERACIONES MATEMATICAS</string>
+    <string name="inset_numone">Ingrese el numero 1</string>
+    <string name="insert_numtwo">Ingrese el numero 2</string>
+    <string name="result">Resultado:</string>
+</resources>

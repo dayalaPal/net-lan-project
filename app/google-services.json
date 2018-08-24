@@ -1,0 +1,94 @@
+{
+  "project_info": {
+    "project_number": "195893689545",
+    "firebase_url": "https://netlan-563cf.firebaseio.com",
+    "project_id": "netlan-563cf",
+    "storage_bucket": "netlan-563cf.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:195893689545:android:6179964efe6b40cf",
+        "android_client_info": {
+          "package_name": "com.netlan.first.proyectonetlan"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "195893689545-fcatmeg39qarpk4c4fpnadc60j4c0cf1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.netlan.first.proyectonetlan",
+            "certificate_hash": "fe47f47ea46840afe5e00f20282e14de82aff469"
+          }
+        },
+        {
+          "client_id": "195893689545-9hq6q66goksv2740r7a6kehh8bmvqtt7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.netlan.first.proyectonetlan",
+            "certificate_hash": "aeaae7bf02e7fd915efb955e4b41c574d9acab78"
+          }
+        },
+        {
+          "client_id": "195893689545-j29lc7o37bt2n15sgkvpp1f18ko0dvvk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDzDQpyIE4UhpqU2z4YJZrJuYtad6WU8ww"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "195893689545-j29lc7o37bt2n15sgkvpp1f18ko0dvvk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:195893689545:android:5b0f105df15e32ff",
+        "android_client_info": {
+          "package_name": "com.netlan.first.proyectonetlan"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "195893689545-j29lc7o37bt2n15sgkvpp1f18ko0dvvk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDzDQpyIE4UhpqU2z4YJZrJuYtad6WU8ww"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

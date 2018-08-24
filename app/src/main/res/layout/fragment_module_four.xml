@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.netlan.first.proyectonetlan.module.FourModuleFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="STP"
+            android:textStyle="italic"
+            android:inputType="textMultiLine"
+            android:layout_gravity= "center"
+            android:textColor="#008080"
+            android:longClickable="true"
+            android:typeface="serif"
+            android:textSize="35sp"
+            android:padding="10dp" />
+
+        <VideoView
+            android:layout_width="280dp"
+            android:layout_height="100dp"
+            android:id="@+id/vv_video"
+            android:layout_gravity="center_horizontal"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Play"
+            android:id="@+id/bt_play"
+            android:layout_gravity="center_horizontal"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Practicas"
+            android:textStyle="italic"
+            android:inputType="textMultiLine"
+            android:scrollbars = "vertical"
+            android:textColor="#33ffac"
+            android:longClickable="true"
+            android:typeface="serif"
+            android:textSize="25sp"
+            android:padding="10dp" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Puzzle"
+            android:id="@+id/bt_puzzF"
+            android:layout_marginLeft="10dp"
+            android:layout_marginBottom="5dp"
+            style="?android:attr/borderlessButtonStyle"
+            android:background="@drawable/estiloboton"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Quiz"
+            android:id="@+id/bt_quizf"
+            android:layout_marginLeft="10dp"
+            android:layout_marginBottom="5dp"
+            style="?android:attr/borderlessButtonStyle"
+            android:background="@drawable/estiloboton"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="italic"
+            android:inputType="textMultiLine"
+            android:scrollbars = "vertical"
+            android:textColor="#575958"
+            android:longClickable="true"
+            android:typeface="serif"
+            android:text="Mantenimiento del Spanning Tree"
+            android:textSize="25sp"
+            android:layout_gravity="center"
+            android:padding="10dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="italic"
+            android:inputType="textMultiLine"
+            android:scrollbars = "vertical"
+            android:textColor="#575958"
+            android:longClickable="true"
+            android:typeface="serif"
+            android:text="El cambio en la topología puede ocurrir de dos formas:
+
+El puerto se desactiva o se bloquea
+El puerto pasa de estar bloqueado o desactivado a activado
+
+Cuando se detecta un cambio el switch notifica al puente raíz dicho cambio y entonces el puente raíz envía por broadcast dicho cambio.
+Para ello, se introduce una BPDU especial denominada notificación de cambio en la topología (TCN).
+Cuando un switch necesita avisar acerca de un cambio en la topología, comienza a enviar TCN en su puerto raíz. La TCN es una BPDU muy simple que no contiene información y se envía durante el intervalo de tiempo de saludo.
+El switch que recibe la TCN se denomina puente designado y realiza el acuse de recibo mediante el envío inmediato de una BPDU normal con el bit de acuse de recibo de cambio en la topología (TCA). Este intercambio continúa hasta que el puente raíz responde."
+            android:textSize="20sp"
+            android:padding="10dp" />
+
+    </LinearLayout>
+
+</FrameLayout>

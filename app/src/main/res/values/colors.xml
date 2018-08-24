@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#12badc</color>
+    <color name="colorPrimaryDark">#7f9fa4</color>
+    <color name="colorAccent">#af37f4</color>
+    <color name="negro_semitransparente">#B2000000</color>
+    <color name="blanco">#fafafa</color>
+    <color name="negro">#2d2b2b</color>
+
+    <color name="colorAcce">#FF4081</color>
+    <color name="lightGrayLine">#ededed</color>
+    <color name="colordos">#27a662</color>
+    <color name="deepPurple">#7c4dff</color>
+    <color name="materialYello">#ffb300</color>
+    <color name="materialGreen">#00bfa5</color>
+    <color name="backgroundCol">#fcfcfc</color>
+    <color name="colorTac">#59ff40</color>
+    <color name="semitras">#b2d9d9d9</color>
+
+</resources>
